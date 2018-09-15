@@ -33,16 +33,28 @@ Fråga 4:
 Comman-Pattern kommer användas för att efterlikna assembly-koden vi kommer behöva använda oss av för att efterlikna en dator nere på maskinnivå. En klass skrivs för varje kommando, som i sin tur implementerar kommando-interfacet. Detta ger oss ett enkelt sätt att se exekveringshistorik.
 
 Fråga 5:
-
+Kan bli aktuellt för Word och LongWord, samt Memory och LongMemory.
 
 Fråga 6:
-
+Man bryter loss och flyttar upp metoder som kan behöva ändras till ett interface. Detta för att kunna modifiera eller byta ut algoritmer utan att behöva ändra övriga klasser. 
 
 Fråga 7:
-
+Additionen sker i klassen LongWord.
 
 Fråga 8:
 
 
 Fråga 9:
 
+================================
+factorial(5) med olika slags ord
+0: Copy 5 to [0]
+1: Copy 1 to [1]
+2: Jump to 6 if [0] == 1
+3: Multiply [1] and [0] into [1]
+4: Add [0] and -1 into [0]
+5: Jump to 2
+6: Print [1]
+7: Halt
+
+120
