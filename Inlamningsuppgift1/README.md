@@ -47,14 +47,24 @@ Fråga 8:
 Fråga 9:
 
 ================================
+
 factorial(5) med olika slags ord
+
 0: Copy 5 to [0]
+
 1: Copy 1 to [1]
+
 2: Jump to 6 if [0] == 1
+
 3: Multiply [1] and [0] into [1]
+
 4: Add [0] and -1 into [0]
+
 5: Jump to 2
+
 6: Print [1]
+
 7: Halt
+
 
 120
