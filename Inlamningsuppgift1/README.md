@@ -18,6 +18,12 @@ Fråga 1:
 
 -Address(Klass)
 
+-WordFactory(Interface)
+
+-ShortWordFactory(Klass)
+
+-LongWordFactory(Klass)
+
 Fråga 2:
 
 Man skulle kunna ha med Add som metoder i t.ex klasserna Sum eller Factorial, men då hade vi behövt duplicera koden för varje ny klass vi velat skriva, därför är det bättre att ha den i en superklass som vi istället "extendar". Likaså hade det varit en dum idé att lägga in den i Standardklassen 'Math', då vår önskade metod inte håller samma "scope" som de andra metoderna i Math.
