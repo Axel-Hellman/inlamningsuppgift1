@@ -24,7 +24,7 @@ Fråga 1:
 
 -LongWordFactory(Klass)
 
--ProgramCounter
+-ProgramCounter(Klass)
 
 Fråga 2:
 
