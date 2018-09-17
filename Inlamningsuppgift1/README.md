@@ -20,9 +20,11 @@ Fråga 1:
 
 -WordFactory(Interface)
 
--ShortWordFactory(Klass)
+-ByteWordFactory(Klass)
 
 -LongWordFactory(Klass)
+
+-ProgramCounter
 
 Fråga 2:
 
