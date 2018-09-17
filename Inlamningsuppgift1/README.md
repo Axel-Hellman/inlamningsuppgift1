@@ -8,8 +8,6 @@ Fråga 1:
 
 -LongWord(Klass)
 
--Factorial (Klass)
-
 -Program (Klass)
 
 -Value (Interface)
@@ -30,7 +28,7 @@ Paketen som borde finnas är 'Computer' och 'Commands'. Vi vill hålla alla "dat
 
 Fråga 4:
 
-Comman-Pattern kommer användas för att efterlikna assembly-koden vi kommer behöva använda oss av för att efterlikna en dator nere på maskinnivå. En klass skrivs för varje kommando, som i sin tur implementerar kommando-interfacet. Detta ger oss ett enkelt sätt att se exekveringshistorik.
+Command-Pattern kommer användas för att efterlikna assembly-koden vi kommer behöva använda oss av för att efterlikna en dator nere på maskinnivå. En klass skrivs för varje kommando, som i sin tur implementerar kommando-interfacet. Detta ger oss ett enkelt sätt att se exekveringshistorik.
 
 Fråga 5:
 
