@@ -1,11 +1,10 @@
 # GruppInfo
 
-Länkar till umldiagram för högre upplösning:
+Länkar till UML-diagram för högre upplösning:
 
 command_uml - https://drive.google.com/file/d/16EMsdPww2Lln5uaiyCBy9Z4MlgmLhshL/view?usp=sharing
 
 computer_uml - https://drive.google.com/file/d/1edyIYZPZWspabDQWAgZlMZsuWGCPHvM7/view?usp=sharing
-
 
 Inlämningsuppgifter i kursen Objektorienterad Modulering och Design (EDAF60) på LTH.  
 
