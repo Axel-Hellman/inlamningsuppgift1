@@ -58,5 +58,25 @@ Expr.java
 
 Kolla att uttrycket inte pekar på sig själv? (dålig förklaring ik)
 
+Användningsfall:
+
+A, användaren skriver in (x =) i ruta A1.
+
+1. Kommentaren "x =" sparas som en string i ruta A1
+
+B, användaren skriver in (1) i ruta B1
+
+1. Konstanten 1 sparas som ett expresion av typen floating point number. 
+
+C, användaren skriver in (y =) i ruta A2.
+
+
+D, användaren skriver in (B1+1) i ruta B2
+
+E, användaren skriver in (B1+1) i ruta B1
+
+F, användaren skriver in (A1 + B1) i ruta C1
+
+G, användaren skriver in (B1 + B2) i ruta B3
 
 
