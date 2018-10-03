@@ -1,5 +1,9 @@
 package computer;
 
-public class LongWordFactory {
+public class LongWordFactory implements WordFactory {
+
+	public computer.Word Word() {
+		return null;
+	}
 
 }
