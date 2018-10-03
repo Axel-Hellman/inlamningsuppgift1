@@ -76,13 +76,32 @@ B, användaren skriver in (1) i ruta B1
 
 C, användaren skriver in (y =) i ruta A2.
 
+1. Kommentaren "x =" sparas som en string i ruta A1
 
 D, användaren skriver in (B1+1) i ruta B2
 
+1. Ruta B2 visar summan av konstantent "1" och värdet som har lagrats på adressen B1. 
+
 E, användaren skriver in (B1+1) i ruta B1
+
+1. Ruta B1 försöker visa värdet på adressen B1 adderat med "1"
+2. Eftersom den kallar på sig själv, genereras ett exception
+3. Error visas i ruta B1
 
 F, användaren skriver in (A1 + B1) i ruta C1
 
+1. Ruta C1 försöker visa summan av värdena i ruta A1 och B1.
+2. Eftersom en/båda av A1 och B1 är strings visar ruta C1 :Error
+
 G, användaren skriver in (B1 + B2) i ruta B3
+
+1. Ruta B3 läser en string från B1 och en konstant från B2
+2. Iochmed att det är en string i B1 så ger B3 :Error
+
+(Utan användarfall E)
+1. Ruta B3 läser adresserna B1 & B2
+2. Det hämtas konstanter från både B1 och B2
+3. B3 visar: 1 + 2 -> 3
+4. B3 visar siffran (3) i sitt fält.
 
 
