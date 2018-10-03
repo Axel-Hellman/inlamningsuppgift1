@@ -1,5 +1,11 @@
 # Inlamningsuppgift2
 
+Arbetat tid
+Axel: 5h
+Joakim: 8h
+Johannes: 4h
+Sandra: 8h
+
 Länkar till UML-diagram för högre upplösning:
 
 https://drive.google.com/file/d/1tuqmvXvF_crmn7ORuFA72fCdcStLgZE9/view?usp=sharing
