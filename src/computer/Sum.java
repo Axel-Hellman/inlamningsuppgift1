@@ -7,6 +7,7 @@ public class Sum extends Program {
 	public Sum  (String value, WordFactory wf) {
         Address n = new Address(0),
                 sum = new Address(1);
+        
         /**
         Add(new Copy(wf.word(value), n));
         Add(new Copy(wf.word("1"), sum));
