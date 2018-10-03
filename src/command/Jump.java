@@ -7,6 +7,10 @@ public class Jump extends JumpInstruction {
 
 	private int jumpTo;
 
+	public Jump(int jumpTo) {
+		this.jumpTo = jumpTo;
+	}
+
 	public void operation(Memory memory, ProgramCounter counter) {
 
 	}

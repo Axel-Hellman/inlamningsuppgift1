@@ -10,6 +10,12 @@ public abstract class MathInstruction implements Command {
 	private Value word1;
 	private Value word2;
 	private Address address;
+	
+	public MathInstruction(Value word1, Value word2, Address address) {
+		this.word1 = word1;
+		this.word2 = word2;
+		this.address = address;
+	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
 
