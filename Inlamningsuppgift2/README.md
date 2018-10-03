@@ -2,7 +2,7 @@
 
 Länkar till UML-diagram för högre upplösning:
 
-
+https://drive.google.com/file/d/1tuqmvXvF_crmn7ORuFA72fCdcStLgZE9/view?usp=sharing
 
 1. Vilka klasser bör finnas för att representera ett kalkylark?
 
