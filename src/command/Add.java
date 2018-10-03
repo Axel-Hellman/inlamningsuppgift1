@@ -12,7 +12,7 @@ public class Add extends MathInstruction {
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
-
+		
 	}
 
 	public String toString() {
