@@ -1,15 +1,18 @@
 package computer;
 
-//package computer;
+import command.Command;
 
 public class Computer {
-	/** public Computer(Memory memory);
-    public void load(Program program);
-    public void run(); */
-    
-	
-	public static void main(String[] args) {
-		System.out.println("HOLA");
+
+	private Memory memory;
+	private Command commands;
+
+	public void load(Program program) {
+		
 	}
-    // kommentar
+	
+	public void run() {
+		
+	}
+	
 }
