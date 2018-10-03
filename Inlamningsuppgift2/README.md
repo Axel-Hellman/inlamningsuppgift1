@@ -1,3 +1,9 @@
+# Inlamningsuppgift2
+
+Länkar till UML-diagram för högre upplösning:
+
+
+
 1. Vilka klasser bör finnas för att representera ett kalkylark?
 
 -En klass för att hantera/skapa celler
