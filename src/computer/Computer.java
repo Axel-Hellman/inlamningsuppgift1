@@ -1,4 +1,4 @@
-package inlamning1;
+package computer;
 
 //package computer;
 
