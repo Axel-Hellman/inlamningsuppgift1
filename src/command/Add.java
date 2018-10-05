@@ -7,17 +7,19 @@ import computer.Value;
 
 public class Add extends MathInstruction {
 
-	public Add(Value word1, Value word2, Address address) {
-		super(word1, word2, address);
+	public Add(Value value1, Value value2, Address address) {
+		super(value1, value2, address);
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
-		
+		memory.write(value1.getValue(memory).add(value1.getValue(memory),(value2.getValue(memory))), address.getIndex());
+		counter.increase();
 	}
 
 	@Override
 	public String toString() {
-		return "Add " + word1.toString() + " and " + word2.toString() + " into " + address.toString();
+		return "Add " + value1.toString() + " and " + value2.toString() + " into " + address.toString();
 	}
-
+	
+	
 }

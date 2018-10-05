@@ -4,16 +4,17 @@ import computer.Address;
 import computer.Memory;
 import computer.ProgramCounter;
 import computer.Value;
+import computer.Word;
 
 public abstract class MathInstruction implements Command {
 
-	protected Value word1;
-	protected Value word2;
+	protected Value value1;
+	protected Value value2;
 	protected Address address;
-	
-	public MathInstruction(Value word1, Value word2, Address address) {
-		this.word1 = word1;
-		this.word2 = word2;
+
+	public MathInstruction(Value value1, Value value2, Address address) {
+		this.value1 = value1;
+		this.value2 = value2;
 		this.address = address;
 	}
 

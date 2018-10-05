@@ -7,8 +7,8 @@ import computer.Value;
 
 public class Mul extends MathInstruction {
 
-	public Mul(Value word1, Value word2, Address address) {
-		super(word1, word2, address);
+	public Mul(Value value1, Value value2, Address address) {
+		super(value1, value2, address);
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
@@ -16,6 +16,7 @@ public class Mul extends MathInstruction {
 	}
 
 	public String toString() {
-		return "Multiply " + word1.toString() + " and " + word2.toString() + " into " + address.toString();
+		return "Multiply " + value1.toString() + " and " + value2.toString() + " into " + address.toString();
+		
 	}
 }

@@ -10,19 +10,19 @@ public class ByteWord extends Word {
 	}
 
 	@Override
-	public Word Add(Word w1, Word w2) {
+	public Word add(Word w1, Word w2) {
+		// TODO Auto-generated method stub
+		return new ByteWord(((ByteWord)w1).value + ((ByteWord)w2).value);
+	}
+
+	@Override
+	public Word mul(Word w1, Word w2) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Word Mul(Word w1, Word w2) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public boolean Equals(Word w1, Word w2) {
+	public boolean equals(Word w1) {
 		// TODO Auto-generated method stub
 		return false;
 	}
