@@ -11,16 +11,11 @@ public abstract class Word implements Value {
  
 	public abstract boolean equals(Word w1);
 	
-	public Word copy() {
-		return null;
-	}
+	public abstract Word copy();
 	
 	public Word getValue(Memory memory) {
 		return this;
 	}
 
-	public String toString() {
-		return null;
-	}
-
+	public abstract String toString();
 }

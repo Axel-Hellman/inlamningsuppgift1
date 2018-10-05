@@ -29,4 +29,17 @@ public class ByteWord extends Word {
 		return false;
 	}
 
+	@Override
+	public Word copy() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String toString() {
+		return Byte.toString(this.value);
+	}
+	
+	
+
 }
