@@ -16,6 +16,6 @@ public class Mul extends MathInstruction {
 	}
 
 	public String ToString() {
-		return null;
+		return "Multiply" + word1.toString() + "and" + word2.toString() + "into" + address.toString();
 	}
 }
