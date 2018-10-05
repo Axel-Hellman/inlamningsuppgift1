@@ -15,7 +15,8 @@ public class Add extends MathInstruction {
 		
 	}
 
-	public String toString() {
+	@Override
+	public String ToString() {
 		return null;
 	}
 

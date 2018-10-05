@@ -17,12 +17,9 @@ public abstract class MathInstruction implements Command {
 		this.address = address;
 	}
 
-	public void operation(Memory memory, ProgramCounter counter) {
+	public abstract void operation(Memory memory, ProgramCounter counter);
 
-	}
-
-	public String ToString() {
-		return null;
-	}
+	@Override
+	public abstract String ToString();
 
 }
