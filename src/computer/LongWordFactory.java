@@ -11,7 +11,7 @@ public class LongWordFactory implements WordFactory {
 	public computer.Word Word(String createWord) {
 		wordOut = (long)Long.parseLong(createWord);
 		
-		
+
 		return new LongWord(wordOut);
 	}
 
