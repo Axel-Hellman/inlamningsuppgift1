@@ -17,7 +17,7 @@ public class Address implements Value {
 	}
 
 	public String toString() {
-		return null;
+		return "[" + index + "]";
 	}
 
 }
