@@ -20,6 +20,6 @@ public abstract class JumpInstruction implements Command {
 	}
 
 	@Override
-	public abstract String ToString();
+	public abstract String toString();
 	
 }

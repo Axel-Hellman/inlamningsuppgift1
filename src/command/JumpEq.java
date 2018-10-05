@@ -6,12 +6,12 @@ import computer.Value;
 
 public class JumpEq extends JumpInstruction {
 
-	private int jumpTo;
+
 	private Value equals1;
 	private Value equals2;
 
 	public JumpEq(int jumpTo, Value equals1, Value equals2) {
-		this.jumpTo = jumpTo;
+		super(jumpTo);
 		this.equals1 = equals1;
 		this.equals2 = equals2;
 	}
@@ -20,7 +20,7 @@ public class JumpEq extends JumpInstruction {
 
 	}
 
-	public String ToString() {
-		return null;
+	public String toString() {
+		return "Jump to " + index + " if " + equals1.toString() + " == " + equals2.toString();
 	}
 }

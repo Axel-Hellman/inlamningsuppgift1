@@ -5,17 +5,15 @@ import computer.ProgramCounter;
 
 public class Jump extends JumpInstruction {
 
-	private int jumpTo;
-
 	public Jump(int jumpTo) {
-		this.jumpTo = jumpTo;
+		super(jumpTo);
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
 
 	}
 
-	public String ToString() {
-		return null;
+	public String toString() {
+		return "Jump to " + index;
 	}
 }

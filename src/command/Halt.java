@@ -13,7 +13,9 @@ public class Halt extends JumpInstruction {
 		
 	}
 
-	public String ToString() {
-		return "HLT";
+
+	public String toString() {
+		return "Halt";
+
 	}
 }
