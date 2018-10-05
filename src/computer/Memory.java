@@ -16,4 +16,4 @@ public class Memory {
 		memory[index] = (Word) word;
 	}
 		
-}
+} 
