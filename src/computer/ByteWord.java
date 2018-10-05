@@ -6,7 +6,7 @@ public class ByteWord extends Word {
 
 	private byte value;
 	
-	public ByteWord(int length) {
+	public ByteWord(int length) { 
 	}
 
 	@Override

@@ -6,7 +6,7 @@ public class LongWord extends Word{
 	
 	private long value;
 	
-	public LongWord(long length) {
+	public LongWord(long length) {  
 	}
 
 	@Override

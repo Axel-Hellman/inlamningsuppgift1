@@ -13,7 +13,7 @@ public class Mul extends MathInstruction {
 
 	public void operation(Memory memory, ProgramCounter counter) {
 
-	}
+	} 
 
 	public String toString() {
 		return "Multiply " + value1.toString() + " and " + value2.toString() + " into " + address.toString();

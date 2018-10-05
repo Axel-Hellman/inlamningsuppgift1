@@ -15,7 +15,7 @@ public abstract class MathInstruction implements Command {
 	public MathInstruction(Value value1, Value value2, Address address) {
 		this.value1 = value1;
 		this.value2 = value2;
-		this.address = address;
+		this.address = address; 
 	}
 
 	public abstract void operation(Memory memory, ProgramCounter counter);

@@ -8,7 +8,7 @@ public abstract class Word implements Value {
 	public abstract Word add(Word w1, Word w2);
 
 	public abstract Word mul(Word w1, Word w2);
-
+ 
 	public abstract boolean equals(Word w1);
 	
 	public Word copy() {

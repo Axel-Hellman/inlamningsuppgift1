@@ -14,7 +14,7 @@ public class Add extends MathInstruction {
 	public void operation(Memory memory, ProgramCounter counter) {
 		memory.write(value1.getValue(memory).add(value1.getValue(memory),(value2.getValue(memory))), address.getIndex());
 		counter.increase();
-	}
+	} 
 
 	@Override
 	public String toString() {
