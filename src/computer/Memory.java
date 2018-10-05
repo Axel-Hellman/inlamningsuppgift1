@@ -5,10 +5,9 @@ public abstract class Memory {
 	protected Word[] memory;
 	
 	public Word read(int index) {
-		return null;
+		return memory[index];
 	}
 
-	public void write(Word word, int index) {
+	public abstract void write(Word word, int index);
 		
-	}
 }
