@@ -8,7 +8,7 @@ public class LongWordFactory implements WordFactory {
 	}
 	
 	@Override
-	public computer.Word Word(String createWord) {
+	public computer.Word word(String createWord) {
 		wordOut = (long)Long.parseLong(createWord);
 		
 
