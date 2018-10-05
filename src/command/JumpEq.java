@@ -21,6 +21,6 @@ public class JumpEq extends JumpInstruction {
 	}
 
 	public String toString() {
-		return "Jump to" + jumpTo + "if" + equals1.toString() + "==" + equals2.toString();
+		return "Jump to " + jumpTo + " if " + equals1.toString() + " == " + equals2.toString();
 	}
 }
