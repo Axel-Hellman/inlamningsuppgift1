@@ -20,7 +20,7 @@ public class Main {
         System.out.println(message);
         System.out.println(program);
         /**
-        var computer = new Computer(new Memory(1024, wf));
+        Computer computer = new Computer(new Memory(1024, wf));
         computer.load(program);
         computer.run();
         */
