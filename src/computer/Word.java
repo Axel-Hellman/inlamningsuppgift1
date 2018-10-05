@@ -15,7 +15,7 @@ public abstract class Word implements Value {
 		return null;
 	}
 	
-	public Word getWord(Memory memory) {
+	public Word getValue(Memory memory) {
 		return null;
 	}
 
