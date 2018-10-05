@@ -2,7 +2,7 @@ package computer;
 
 public interface WordFactory {
 
-	public Word Word(String createWord);
+	public Word word(String createWord);
 		
 
 }
