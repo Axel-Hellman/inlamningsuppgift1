@@ -2,7 +2,7 @@ package computer;
 
 public interface Value {
 	
-	public Word getWord(Memory memory);
+	public Word getValue(Memory memory);
 	
 	public String toString();
 

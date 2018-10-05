@@ -8,12 +8,8 @@ public class Address implements Value {
 		this.index = index;
 	}
 
-	public Word getWord(Memory memory) {
-		return null;
-	}
-
 	public Word getValue(Memory memory) {
-		return null;
+		return memory.read(index);
 	}
 
 	public int getIndex() {
