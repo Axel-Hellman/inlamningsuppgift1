@@ -20,6 +20,6 @@ public abstract class MathInstruction implements Command {
 	public abstract void operation(Memory memory, ProgramCounter counter);
 
 	@Override
-	public abstract String ToString();
+	public abstract String toString();
 
 }

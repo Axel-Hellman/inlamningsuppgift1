@@ -3,14 +3,15 @@ package command;
 import computer.Address;
 import computer.Memory;
 import computer.ProgramCounter;
+import computer.Word;
 
 public class Copy implements Command {
 
-	private Address addressFrom;
+	private Word word;
 	private Address address;
 
-	public Copy(Address addressFrom, Address address) {
-		this.addressFrom = addressFrom;
+	public Copy(Word word, Address address) {
+		this.word = word;
 		this.address = address;
 	}
 
@@ -18,8 +19,8 @@ public class Copy implements Command {
 
 	}
 
-	public String ToString() {
-		return null;
+	public String toString() {
+		return "Copy " + word.toString() + " to " + address.toString();
 	}
 
 }

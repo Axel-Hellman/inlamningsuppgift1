@@ -7,6 +7,6 @@ public interface Command {
 	
 	public void operation(Memory memory, ProgramCounter counter);
 	
-	public String ToString();
+	public String toString();
 	
 }
