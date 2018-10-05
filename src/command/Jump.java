@@ -15,7 +15,7 @@ public class Jump extends JumpInstruction {
 
 	}
 
-	public String ToString() {
-		return null;
+	public String toString() {
+		return "Jump to" + jumpTo;
 	}
 }

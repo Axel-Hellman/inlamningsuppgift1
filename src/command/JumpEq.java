@@ -20,7 +20,7 @@ public class JumpEq extends JumpInstruction {
 
 	}
 
-	public String ToString() {
-		return null;
+	public String toString() {
+		return "Jump to" + jumpTo + "if" + equals1.toString() + "==" + equals2.toString();
 	}
 }

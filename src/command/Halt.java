@@ -12,7 +12,7 @@ public class Halt extends JumpInstruction {
 
 	}
 
-	public String ToString() {
-		return null;
+	public String toString() {
+		return "Halt";
 	}
 }

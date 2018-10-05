@@ -16,8 +16,8 @@ public class Print implements Command {
 
 	}
 
-	public String ToString() {
-		return null;
+	public String toString() {
+		return "Print" + address.toString();
 	}
 
 }
