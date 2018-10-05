@@ -7,9 +7,9 @@ import computer.Value;
 
 public abstract class MathInstruction implements Command {
 
-	private Value word1;
-	private Value word2;
-	private Address address;
+	protected Value word1;
+	protected Value word2;
+	protected Address address;
 	
 	public MathInstruction(Value word1, Value word2, Address address) {
 		this.word1 = word1;
