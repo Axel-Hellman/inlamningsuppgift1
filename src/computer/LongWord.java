@@ -21,6 +21,9 @@ public class LongWord extends Word{
 
 	@Override
 	public boolean equals(Word w1) {
+		if (this.value == ((LongWord)w1).value){
+			return true;
+		}
 		return false;
 	}
 

@@ -23,7 +23,9 @@ public class ByteWord extends Word {
 
 	@Override
 	public boolean equals(Word w1) {
-		// TODO Auto-generated method stub
+		if (this.value == ((ByteWord)w1).value){
+			return true;
+		}
 		return false;
 	}
 
