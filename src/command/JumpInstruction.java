@@ -5,7 +5,10 @@ import computer.ProgramCounter;
 
 public abstract class JumpInstruction implements Command {
 
-	public JumpInstruction() {
+	protected int index;
+	
+	public JumpInstruction(int index) {
+		this.index = index;
 	}
 
 	public void callMemCounter(Memory memory, ProgramCounter counter) {

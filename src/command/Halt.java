@@ -6,13 +6,14 @@ import computer.ProgramCounter;
 public class Halt extends JumpInstruction {
 	
 	public Halt() {
+		super(-1);
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
-
+		
 	}
 
 	public String ToString() {
-		return null;
+		return "HLT";
 	}
 }

@@ -21,7 +21,6 @@ public class ProgramCounter {
 	}
 
 	public boolean isPositive() {
-
 		if (index >= 0) {
 			return true;
 		}
