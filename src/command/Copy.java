@@ -16,7 +16,8 @@ public class Copy implements Command {
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
-
+		memory.write(word.getValue(memory).copy(), address.getIndex());
+		counter.increase();
 	}
 
 	public String toString() {

@@ -30,7 +30,7 @@ public class LongWord extends Word{
 	@Override
 	public Word copy() {
 		// TODO Auto-generated method stub
-		return null;
+		return new LongWord(value);
 	}
 
 	@Override

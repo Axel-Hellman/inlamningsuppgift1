@@ -31,8 +31,7 @@ public class ByteWord extends Word {
 
 	@Override
 	public Word copy() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ByteWord(value);
 	}
 
 	@Override
