@@ -1,6 +1,6 @@
 package computer;
 
-public abstract class Memory {
+public class Memory {
 	
 	protected Word[] memory;
 	
