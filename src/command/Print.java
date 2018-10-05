@@ -13,11 +13,12 @@ public class Print implements Command {
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
-
+		System.out.println(address.getValue(memory));
+		counter.increase();
 	}
 
 	public String toString() {
-		return "Print" + address.toString();
+		return "Print " + address.toString();
 	}
 
 }
