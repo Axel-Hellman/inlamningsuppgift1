@@ -17,7 +17,7 @@ public class Add extends MathInstruction {
 
 	@Override
 	public String ToString() {
-		return "Add" + word1.toString() + "and" + word2.toString() + "into" + address.toSting();
+		return "Add" + word1.toString() + "and" + word2.toString() + "into" + address.toString();
 	}
 
 }

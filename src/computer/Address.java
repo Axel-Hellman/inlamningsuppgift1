@@ -16,7 +16,7 @@ public class Address implements Value {
 		return index;
 	}
 
-	public String toSting() {
+	public String toString() {
 		return null;
 	}
 
