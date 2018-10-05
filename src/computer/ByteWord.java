@@ -18,7 +18,7 @@ public class ByteWord extends Word {
 	@Override
 	public Word mul(Word w1, Word w2) {
 		// TODO Auto-generated method stub
-		return null;
+		return  new ByteWord(((ByteWord)w1).value * ((ByteWord)w2).value);
 	}
 
 	@Override
