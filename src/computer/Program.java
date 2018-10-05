@@ -20,9 +20,8 @@ public abstract class Program {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		int index = 0;
-		
 		for(Command c: commands) {
-			sb.append(String.valueOf(index++) + " ");
+			sb.append(String.valueOf(index++) + ": ");
 			sb.append(c.toString());
 			sb.append("\n");
 		}
