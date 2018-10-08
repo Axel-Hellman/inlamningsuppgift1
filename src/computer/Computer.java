@@ -21,5 +21,4 @@ public class Computer {
 			commands[counter.getIndex()].operation(memory, counter);
 		}
 	}
-	
 }

@@ -2,7 +2,6 @@ package command;
 
 import computer.Address;
 import computer.Memory;
-import computer.ProgramCounter;
 import computer.Value;
 import computer.Word;
 

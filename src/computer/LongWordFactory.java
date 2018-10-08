@@ -2,17 +2,8 @@ package computer;
 
 public class LongWordFactory implements WordFactory {
 
-	private long wordOut;
-	
-	public LongWordFactory() {	
-	}
-	
-	@Override
 	public Word word(String createWord) {
-		wordOut = (long)Long.parseLong(createWord);
-		
-
+		long wordOut = (long)Long.parseLong(createWord);
 		return new LongWord(wordOut);
 	}
-
 }
