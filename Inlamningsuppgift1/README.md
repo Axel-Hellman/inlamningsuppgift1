@@ -6,6 +6,8 @@ command_uml - https://drive.google.com/file/d/16EMsdPww2Lln5uaiyCBy9Z4MlgmLhshL/
 
 computer_uml - https://drive.google.com/file/d/1edyIYZPZWspabDQWAgZlMZsuWGCPHvM7/view?usp=sharing
 
+sekvensdiagram - https://drive.google.com/file/d/18LzkupWlCtcda54gu_8c7dQXvvxMQGKK/view?usp=sharing
+
 Fråga 1:
 
 -Computer (Klass)
