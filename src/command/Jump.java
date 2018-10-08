@@ -10,7 +10,7 @@ public class Jump extends JumpInstruction {
 	}
 
 	public void operation(Memory memory, ProgramCounter counter) {
-
+		counter.setIndex(index);
 	}
 
 	public String toString() {
