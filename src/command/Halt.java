@@ -13,9 +13,7 @@ public class Halt extends JumpInstruction {
 		counter.setIndex(index);
 	}
 
-
 	public String toString() {
 		return "Halt ";
-
 	}
 }

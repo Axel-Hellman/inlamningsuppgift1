@@ -25,9 +25,8 @@ public abstract class MathInstruction implements Command {
 		counter.increase();
 	}
 
-	public abstract void calculate(Memory memory, Word word1,  Word word2);
+	protected abstract void calculate(Memory memory, Word word1,  Word word2);
 
 	@Override
 	public abstract String toString();
-
 }
