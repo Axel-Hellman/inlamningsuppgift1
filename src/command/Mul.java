@@ -4,6 +4,7 @@ import computer.Address;
 import computer.Memory;
 import computer.ProgramCounter;
 import computer.Value;
+import computer.Word;
 
 public class Mul extends MathInstruction {
 
@@ -11,13 +12,14 @@ public class Mul extends MathInstruction {
 		super(value1, value2, address);
 	}
 
-	public void operation(Memory memory, ProgramCounter counter) {
-		memory.write(value1.getValue(memory).mul(value1.getValue(memory),(value2.getValue(memory))), address.getIndex());
-		counter.increase();
+	public void calculate(Memory memory, Word word1, Word word2) {
+		memory.write(word1.mul(word1,word2), address.getIndex());
 	}
 
 	public String toString() {
 		return "Multiply " + value1.toString() + " and " + value2.toString() + " into " + address.toString();
 		
 	}
+
+	
 }
