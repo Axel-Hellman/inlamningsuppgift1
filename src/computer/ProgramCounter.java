@@ -9,7 +9,7 @@ public class ProgramCounter {
 	}
 
 	public int getIndex() {
-		return 0;
+		return index;
 	}
 
 	public void setIndex(int index) {

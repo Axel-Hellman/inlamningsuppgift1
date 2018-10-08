@@ -9,7 +9,7 @@ public class ByteWordFactory implements WordFactory {
 	}
 	
 	@Override
-	public computer.Word word(String createWord) {
+	public Word word(String createWord) {
 		wordOut = (byte)Byte.parseByte(createWord);
 		
 		

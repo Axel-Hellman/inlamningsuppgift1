@@ -17,8 +17,10 @@ public class JumpEq extends JumpInstruction {
 	}
 	
 	public void operation(Memory memory, ProgramCounter counter) {
-		if (equals1.equals(equals2)){
+		if (equals1.getValue(memory).equals(equals2.getValue(memory))){
 			counter.setIndex(index);
+		}else{
+			counter.increase();
 		}
 	}
 

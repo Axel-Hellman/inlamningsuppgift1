@@ -6,27 +6,26 @@ public class ByteWord extends Word {
 
 	private byte value;
 	
-	public ByteWord(int length) { 
+	public ByteWord(byte value) {
+		this.value = value;
 	}
 
 	@Override
 	public Word add(Word w1, Word w2) {
 		// TODO Auto-generated method stub
-		return new ByteWord(((ByteWord)w1).value + ((ByteWord)w2).value);
+		return new ByteWord((byte)(((ByteWord)w1).value + ((ByteWord)w2).value));
 	}
 
 	@Override
 	public Word mul(Word w1, Word w2) {
 		// TODO Auto-generated method stub
-		return  new ByteWord(((ByteWord)w1).value * ((ByteWord)w2).value);
+		return  new ByteWord((byte)(((ByteWord)w1).value * ((ByteWord)w2).value));
 	}
 
 	@Override
 	public boolean equals(Word w1) {
-		if (this.value == ((ByteWord)w1).value){
-			return true;
-		}
-		return false;
+		return this.value == ((ByteWord)w1).value;
+	
 	}
 
 	@Override

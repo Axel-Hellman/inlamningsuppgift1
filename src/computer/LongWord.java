@@ -6,7 +6,8 @@ public class LongWord extends Word{
 	
 	private long value;
 	
-	public LongWord(long length) {  
+	public LongWord(long value) {
+		this.value = value;
 	}
 
 	@Override
@@ -21,10 +22,7 @@ public class LongWord extends Word{
 
 	@Override
 	public boolean equals(Word w1) {
-		if (this.value == ((LongWord)w1).value){
-			return true;
-		}
-		return false;
+		return this.value == ((LongWord)w1).value;
 	}
 
 	@Override

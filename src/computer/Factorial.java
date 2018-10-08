@@ -7,16 +7,16 @@ public class Factorial extends Program {
 	public Factorial  (String value, WordFactory wf) {
         Address n = new Address(0),
                 fac = new Address(1);
-        /**
-        Add(new Copy(wf.word(value), n));
-        Add(new Copy(wf.word("1"), fac));
-        Add(new JumpEq(6, n, wf.word("1")));
-        Add(new Mul(fac, n, fac));
-        Add(new Add(n, wf.word("-1"), n));
-        Add(new Jump(2));
-        Add(new Print(fac));
-        Add(new Halt());
-        */
+        
+        add(new Copy(wf.word(value), n));
+        add(new Copy(wf.word("1"), fac));
+        add(new JumpEq(6, n, wf.word("1")));
+        add(new Mul(fac, n, fac));
+        add(new Add(n, wf.word("-1"), n));
+        add(new Jump(2));
+        add(new Print(fac));
+        add(new Halt());
+        
     }
 
 }

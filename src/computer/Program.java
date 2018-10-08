@@ -27,5 +27,8 @@ public abstract class Program {
 		}
 		return sb.toString();
 	}
-//test
+	
+	protected void add(Command command){
+		commands.add(command);
+	}
 }
