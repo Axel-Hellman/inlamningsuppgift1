@@ -15,9 +15,8 @@ public abstract class JumpInstruction implements Command {
 		
 	}
 
-	public void operation(Memory memory, ProgramCounter counter) {
-		
-	}
+	public abstract void operation(Memory memory, ProgramCounter counter);
+	
 
 	@Override
 	public abstract String toString();
