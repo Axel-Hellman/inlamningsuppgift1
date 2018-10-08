@@ -6,7 +6,6 @@ import computer.Value;
 
 public class JumpEq extends JumpInstruction {
 
-
 	private Value equals1;
 	private Value equals2;
 

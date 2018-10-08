@@ -23,5 +23,4 @@ public class Copy implements Command {
 	public String toString() {
 		return "Copy " + word.toString() + " to " + address.toString();
 	}
-
 }

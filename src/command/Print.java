@@ -20,5 +20,4 @@ public class Print implements Command {
 	public String toString() {
 		return "Print " + address.toString();
 	}
-
 }

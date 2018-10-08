@@ -16,7 +16,11 @@ public abstract class Program {
 		Command[] comArray = new Command[0];
 		return commands.toArray(comArray);
 	}
-
+	
+	protected void add(Command command){
+		commands.add(command);
+	}
+	
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		int index = 0;
@@ -26,9 +30,5 @@ public abstract class Program {
 			sb.append("\n");
 		}
 		return sb.toString();
-	}
-	
-	protected void add(Command command){
-		commands.add(command);
 	}
 }
