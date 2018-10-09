@@ -1,4 +1,4 @@
-package inlamning2;
+package model;
 import expr.Environment;
 
 public interface Cell {

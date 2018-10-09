@@ -1,4 +1,4 @@
-package inlamning2;
+package model;
 
 public interface Factory {
 	
