@@ -1,6 +1,8 @@
 package model;
 
-public interface Factory {
+public class Factory {
 	
-	public Cell cell(String createCell);
+	public Cell cell(String createCell){
+		return null;
+	}
 }
