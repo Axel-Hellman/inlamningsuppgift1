@@ -4,13 +4,23 @@ import java.util.HashMap;
 import java.util.Observable;
 
 import expr.Environment;
+import gui.SlotLabels;
 
 public class Sheet extends Observable implements Environment, Cell {
 
 	private HashMap<String,Cell> sheet;
+	private Factory factory;
+	private SlotLabels slotLabels;
 	
 	public Sheet(){
-		this.sheet = new HashMap<String,Cell>();
+		super(); 
+		sheet = new HashMap<String,Cell>();
+		factory = new Factory();
+	}
+	
+	public Sheet(HashMap<String,Cell> sheet){
+		this.sheet = sheet;
+		
 	}
 	
 	public String getComment(){
@@ -35,3 +45,9 @@ public class Sheet extends Observable implements Environment, Cell {
 	}
 
 }
+
+
+	
+	
+	
+	
