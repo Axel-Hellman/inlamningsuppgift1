@@ -13,14 +13,23 @@ public class Sheet extends Observable implements Environment, Cell {
 		this.sheet = new HashMap<String,Cell>();
 	}
 	
+	public String getComment(){
+		return null;
+	}
+	
+	public String toString(Environment e){
+		return null;
+	}
+
+
 	@Override
-	public double value(String name) {
+	public double value(Environment env) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
-	public double value(Environment env) {
+	public double value(String name) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
