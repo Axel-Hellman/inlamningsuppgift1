@@ -6,7 +6,7 @@ public class Bomb implements Cell {
 
 	@Override
 	public double value(Environment env) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		return 0;
 	}
 
