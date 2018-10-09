@@ -1,9 +1,18 @@
 package model;
 
+import java.util.HashMap;
+import java.util.Observable;
+
 import expr.Environment;
 
-public class Sheet implements Environment, Cell {
+public class Sheet extends Observable implements Environment, Cell {
 
+	private HashMap<String,Cell> sheet;
+	
+	public Sheet(){
+		this.sheet = new HashMap<String,Cell>();
+	}
+	
 	@Override
 	public double value(String name) {
 		// TODO Auto-generated method stub
