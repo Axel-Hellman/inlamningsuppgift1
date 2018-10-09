@@ -10,5 +10,17 @@ public class Bomb implements Cell {
 		return 0;
 	}
 
+	@Override
+	public String getComment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String toString(Environment env) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
  
