@@ -15,4 +15,4 @@ public class Memory {
 	public void write(Word word, int index){
 		memory[index] = (Word) word;
 	}
-} 
+}

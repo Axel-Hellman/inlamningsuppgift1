@@ -7,7 +7,7 @@ public class Computer {
 	private Memory memory;
 	private Command[] commands;
 
-	public Computer (Memory memory) {
+	public Computer(Memory memory) {
 		this.memory = memory;
 	}
 
@@ -17,7 +17,7 @@ public class Computer {
 
 	public void run() {
 		ProgramCounter counter = new ProgramCounter();
-		while (counter.isPositive()){
+		while (counter.isPositive()) {
 			commands[counter.getIndex()].operation(memory, counter);
 		}
 	}

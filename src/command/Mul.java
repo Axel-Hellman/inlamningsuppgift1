@@ -12,7 +12,7 @@ public class Mul extends MathInstruction {
 	}
 
 	protected void calculate(Memory memory, Word word1, Word word2) {
-		memory.write(word1.mul(word1,word2), address.getIndex());
+		memory.write(word1.mul(word1, word2), address.getIndex());
 	}
 
 	public String toString() {

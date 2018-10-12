@@ -12,9 +12,9 @@ public class Add extends MathInstruction {
 	}
 
 	protected void calculate(Memory memory, Word word1, Word word2) {
-		memory.write(word1.add(word1,word2), address.getIndex());
+		memory.write(word1.add(word1, word2), address.getIndex());
 	}
-	
+
 	public String toString() {
 		return "Add " + value1.toString() + " and " + value2.toString() + " into " + address.toString();
 	}
