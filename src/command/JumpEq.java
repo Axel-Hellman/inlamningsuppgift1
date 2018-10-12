@@ -14,11 +14,11 @@ public class JumpEq extends JumpInstruction {
 		this.value1 = value1;
 		this.value2 = value2;
 	}
-	
+
 	public void operation(Memory memory, ProgramCounter counter) {
 		if (value1.getValue(memory).equals(value2.getValue(memory))){
 			counter.setIndex(index);
-		}else{
+		} else {
 			counter.increase();
 		}
 	}

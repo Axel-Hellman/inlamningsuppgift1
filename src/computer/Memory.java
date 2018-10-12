@@ -3,7 +3,7 @@ package computer;
 public class Memory {
 
 	protected Word[] memory;
-	
+
 	public Memory(int length, WordFactory wf){
 		memory = new Word[length];
 		for(int i=0; i<length; i++){
@@ -18,4 +18,4 @@ public class Memory {
 	public void write(Word word, int index){
 		memory[index] = (Word) word;
 	}
-} 
+}

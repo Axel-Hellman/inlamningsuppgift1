@@ -3,7 +3,7 @@ package computer;
 public class ByteWord extends Word {
 
 	private byte value;
-	
+
 	public ByteWord(byte value) {
 		this.value = value;
 	}
@@ -19,7 +19,7 @@ public class ByteWord extends Word {
 	}
 
 	public boolean equals(Word w1) {
-		return this.value == ((ByteWord)w1).value;
+		return this.value == ((ByteWord) w1).value;
 	}
 
 	public Word copy() {

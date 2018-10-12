@@ -1,9 +1,9 @@
 package computer;
 
-public class LongWord extends Word{
-	
+public class LongWord extends Word {
+
 	private long value;
-	
+
 	public LongWord(long value) {
 		this.value = value;
 	}
@@ -19,7 +19,7 @@ public class LongWord extends Word{
 	}
 
 	public boolean equals(Word w1) {
-		return this.value == ((LongWord)w1).value;
+		return this.value == ((LongWord) w1).value;
 	}
 
 	public Word copy() {

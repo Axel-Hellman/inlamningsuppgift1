@@ -15,10 +15,10 @@ public abstract class MathInstruction implements Command {
 	public MathInstruction(Value value1, Value value2, Address address) {
 		this.value1 = value1;
 		this.value2 = value2;
-		this.address = address; 
+		this.address = address;
 	}
-	
-	public void operation(Memory memory, ProgramCounter counter){
+
+	public void operation(Memory memory, ProgramCounter counter) {
 		Word word1 = value1.getValue(memory);
 		Word word2 = value2.getValue(memory);
 		calculate(word1, word2);
