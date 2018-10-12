@@ -1,7 +1,7 @@
 package computer;
 
 public class Main {
-	
+
 	public static void main(String[] args) {
         LongWordFactory lwf = new LongWordFactory();
         ByteWordFactory bwf = new ByteWordFactory();
@@ -19,11 +19,8 @@ public class Main {
         System.out.println("================================");
         System.out.println(message);
         System.out.println(program);
-        
         Computer computer = new Computer(new Memory(1024, wf));
         computer.load(program);
         computer.run();
-        
     }
-
 }
