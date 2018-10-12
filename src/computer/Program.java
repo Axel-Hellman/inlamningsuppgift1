@@ -17,7 +17,11 @@ public abstract class Program {
 		return commands.toArray(comArray);
 	}
 
-	protected void add(Command command) {
+	public Command getCommand(int index) {
+		return commands.get(index);
+	}
+
+	protected void add(Command command){
 		commands.add(command);
 	}
 

@@ -6,19 +6,20 @@ public class Computer {
 
 	private Memory memory;
 	private Command[] commands;
+	private Program program;
 
-	public Computer(Memory memory) {
+	public Computer (Memory memory) {
 		this.memory = memory;
 	}
 
 	public void load(Program program) {
-		commands = program.getCommands();
+		this.program = program;
 	}
 
 	public void run() {
 		ProgramCounter counter = new ProgramCounter();
-		while (counter.isPositive()) {
-			commands[counter.getIndex()].operation(memory, counter);
+		while (counter.isPositive()){
+			program.getCommand(counter.getIndex()).operation(memory, counter);
 		}
 	}
 }

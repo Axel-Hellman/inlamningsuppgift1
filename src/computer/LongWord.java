@@ -9,11 +9,13 @@ public class LongWord extends Word {
 	}
 
 	public Word add(Word w1, Word w2) {
-		return new LongWord(((LongWord) w1).value + ((LongWord) w2).value);
+		this.value = ((LongWord)w1).value + ((LongWord)w2).value;
+		return this;
 	}
 
 	public Word mul(Word w1, Word w2) {
-		return new LongWord(((LongWord) w1).value * ((LongWord) w2).value);
+		this.value = ((LongWord)w1).value * ((LongWord)w2).value;
+		return this;
 	}
 
 	public boolean equals(Word w1) {
@@ -21,7 +23,7 @@ public class LongWord extends Word {
 	}
 
 	public Word copy() {
-		return new LongWord(value);
+		return this;
 	}
 
 	public String toString() {

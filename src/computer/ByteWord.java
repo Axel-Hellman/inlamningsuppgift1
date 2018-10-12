@@ -9,11 +9,13 @@ public class ByteWord extends Word {
 	}
 
 	public Word add(Word w1, Word w2) {
-		return new ByteWord((byte) (((ByteWord) w1).value + ((ByteWord) w2).value));
+		this.value = (byte)(((ByteWord)w1).value + ((ByteWord)w2).value);
+		return this;
 	}
 
 	public Word mul(Word w1, Word w2) {
-		return new ByteWord((byte) (((ByteWord) w1).value * ((ByteWord) w2).value));
+		this.value = (byte)(((ByteWord)w1).value * ((ByteWord)w2).value);
+		return this;
 	}
 
 	public boolean equals(Word w1) {
@@ -21,7 +23,7 @@ public class ByteWord extends Word {
 	}
 
 	public Word copy() {
-		return new ByteWord(value);
+		return this;
 	}
 
 	public String toString() {
