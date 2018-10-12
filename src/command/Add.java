@@ -11,10 +11,10 @@ public class Add extends MathInstruction {
 		super(value1, value2, address);
 	}
 
-	protected void calculate(Memory memory, Word word1, Word word2) {
-		memory.write(word1.add(word1,word2), address.getIndex());
+	protected void calculate(Word word1, Word word2) {
+		word1.add(word1,word2);
 	}
-	
+
 	public String toString() {
 		return "Add " + value1.toString() + " and " + value2.toString() + " into " + address.toString();
 	}
