@@ -1,6 +1,6 @@
 # GruppInfo
 
-Inlämningsuppgifter i kursen Objektorienterad Modulering och Design (EDAF60) på LTH.  
+Inlämningsuppgift1 i kursen Objektorienterad Modulering och Design (EDAF60) på LTH.  
 
 Gruppmedlemmar:
 
