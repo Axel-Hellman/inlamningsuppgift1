@@ -5,7 +5,6 @@ import command.Command;
 public class Computer {
 
     private Memory memory;
-    private Command[] commands;
     private Program program;
 
     public Computer (Memory memory) {
