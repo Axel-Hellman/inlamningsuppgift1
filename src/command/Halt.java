@@ -5,15 +5,15 @@ import computer.ProgramCounter;
 
 public class Halt extends JumpInstruction {
 
-	public Halt() {
-		super(-1);
-	}
+    public Halt() {
+        super(-1);
+    }
 
-	public void operation(Memory memory, ProgramCounter counter) {
-		counter.setIndex(index);
-	}
+    public void operation(Memory memory, ProgramCounter counter) {
+        counter.setIndex(index);
+    }
 
-	public String toString() {
-		return "Halt ";
-	}
+    public String toString() {
+        return "Halt ";
+    }
 }

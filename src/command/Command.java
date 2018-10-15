@@ -5,8 +5,8 @@ import computer.ProgramCounter;
 
 public interface Command {
 
-	public void operation(Memory memory, ProgramCounter counter);
+    public void operation(Memory memory, ProgramCounter counter);
 
-	public String toString();
+    public String toString();
 
 }
