@@ -21,11 +21,12 @@ public abstract class MathInstruction implements Command {
 	public void operation(Memory memory, ProgramCounter counter) {
 		Word word1 = value1.getValue(memory);
 		Word word2 = value2.getValue(memory);
-		calculate(word1, word2);
+		Word word3 = address.getValue(memory);
+		calculate(word1, word2, word3);
 		counter.increase();
 	}
 
-	protected abstract void calculate(Word word1,  Word word2);
+	protected abstract void calculate(Word word1,  Word word2, Word word3);
 
 	@Override
 	public abstract String toString();

@@ -11,8 +11,8 @@ public class Mul extends MathInstruction {
 		super(value1, value2, address);
 	}
 
-	protected void calculate(Word word1, Word word2) {
-		word1.mul(word1,word2);
+	protected void calculate(Word word1, Word word2, Word word3) {
+		word3.mul(word1,word2);
 	}
 
 	public String toString() {
